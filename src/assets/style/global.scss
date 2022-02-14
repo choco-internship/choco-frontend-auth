@@ -1,0 +1,49 @@
+@import "./variables";
+
+h1 {
+    color: $base_black;
+}
+
+.card {
+    border: 1px solid $gray--secondary;
+    box-shadow: $shadow--secondary-1;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 14px;
+    border: 1px solid $base_gray;
+    margin: 10px 0px;
+}
+
+button {
+    background-color: $base_color;
+    padding: 14px;
+    border: 0px;
+    border-radius: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: $shadow--primary-1;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:first-child {
+    margin-right: 14px;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
